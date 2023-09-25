@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "keen-slider": "^6.8.6",
+    "next": "latest",
+    "pdfjs-dist": "^3.11.174",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-pdf": "^7.4.0",
+    "react-responsive-carousel": "^3.2.23"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "raw-loader": "^4.0.2",
+    "tailwindcss": "latest"
+  }
+}
