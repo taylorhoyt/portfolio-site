@@ -11,11 +11,9 @@
   "dependencies": {
     "keen-slider": "^6.8.6",
     "next": "latest",
-    "pdfjs-dist": "^3.11.174",
     "react": "latest",
     "react-dom": "latest",
-    "react-pdf": "^7.4.0",
-    "react-responsive-carousel": "^3.2.23"
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "autoprefixer": "latest",
