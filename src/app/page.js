@@ -3,6 +3,7 @@ import Image from 'next/image';
 import linkedinIcon from '/public/linkedin.svg'
 import githubIcon from '/public/github.svg'
 import emailIcon from '/public/email.svg'
+import stackShareIcon from '/public/stackshare.svg'
 import profilePic from '/public/me.jpg'
 import Link from "next/link";
 
@@ -56,6 +57,12 @@ export default function Home() {
                 <Link href="mailto:tchoyt@uark.edu">
                     <Image src={emailIcon}
                            alt="email"
+                           className="m-auto mobile:w-3/4"
+                    />
+                </Link>
+                <Link href="https://stackshare.io/taylorhoyt" target="_blank">
+                    <Image src={stackShareIcon}
+                           alt="stackshare"
                            className="m-auto mobile:w-3/4"
                     />
                 </Link>

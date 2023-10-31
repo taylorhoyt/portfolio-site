@@ -4,8 +4,13 @@ import ProjectsSlider from "@/app/components/ProjectsSlider";
 export default function Projects() {
     return(
         <body className="desktop:overflow-hidden">
-            <NavBar />
-            <ProjectsSlider />
+            <div className="z-1">
+                <NavBar />
+            </div>
+            <div className="z-0">
+                <ProjectsSlider />
+            </div>
+
         </body>
     );
 }
