@@ -24,7 +24,7 @@ export default function ProjectsSlider() {
 
     return (
         <div className="flex justify-center flex-col ml-auto mr-auto pt-5 w-1/2 mobile:w-4/5">
-            <div ref={sliderRef} className="keen-slider border-4 border-white bg-black">
+            <div ref={sliderRef} className="keen-slider border-4 border-white bg-theme-navy">
                 <div className="keen-slider__slide flex flex-col justify-left font-15px h-550px pt-3 pb-3">
                     <Image
                         src={lawnmowerPic}
