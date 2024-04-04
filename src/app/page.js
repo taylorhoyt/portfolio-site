@@ -9,7 +9,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-      <body className="bg-gradient-to-b from-theme-navy via-theme-navy to-black">
+      <body>
+      <div className="bg-gradient-to-b from-theme-navy via-theme-navy to-black">
         <NavBar />
 
         <div className="flex justify-center">
@@ -68,6 +69,7 @@ export default function Home() {
                 </Link>
             </div>
         </div>
+      </div>
       </body>
   )
 }
